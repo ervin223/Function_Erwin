@@ -67,10 +67,6 @@ def season(arv1: int) -> str:
     else:
         return "Vigane kuu"
 
-# Пример использования
-result = season(6)
-print(result)  # Выведет "suvi"
-
 #2
 def is_year_leap(aasta:int)->bool:
     """Liigaasta leidmine
